@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require 'rubygems'
+require 'rubygems' if RUBY_VERSION < '1.9.0'
 require 'file/find'
 require 'date'
 require 'fileutils'
